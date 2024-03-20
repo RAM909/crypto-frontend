@@ -30,7 +30,7 @@ const LoginPage = () => {
                 alert("User logged in successfully");
                 navigate("/");
             } else {
-                alert("Error in login");
+                alert("Invalid Credentials");
             }
         } catch (error) {
             console.error(error);
