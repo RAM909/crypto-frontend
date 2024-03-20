@@ -26,7 +26,7 @@ const Home = () => {
         <div style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
             <div className="overflow-x-auto rounded-lg border border-gray-200 flex-grow">
                 <div className="flex justify-between items-center mb-4 tex">
-                    <h1 className="text-3xl font-bold  text-white align-centre">DATA</h1>
+                    <h1 className="text-3xl font-bold  text-white align-centre">DASHBOARD</h1>
                     <button onClick={logouthandle} className="px-4 py-2 bg-red-500 text-white rounded-md">Logout</button>
                 </div>
                 <table className="min-w-full divide-y-2 divide-gray-200 bg-white text-sm">
