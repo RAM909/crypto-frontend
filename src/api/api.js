@@ -1,5 +1,5 @@
 import axios from "axios";
-const host = "https://crypto-backend-0imm.onrender.com";
+const host = "https://crypto-backend-final.onrender.com";
 
 export const postUserLogin = async (data) => {
     try {
